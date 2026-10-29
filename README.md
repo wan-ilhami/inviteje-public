@@ -28,7 +28,7 @@ See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for how the system is put together: t
 
 ## What this repository is
 
-This is the **public** half of Inviteje's codebase — the shared data contract, version table, and architecture overview. The application code (Next.js frontend, Express backend, React Native mobile app) lives in a private repository. This repo contains:
+This is the **public** half of Inviteje's codebase — the shared data contract, version table, and architecture overview. The application code (Next.js frontend, Express backend) lives in a private repository. This repo contains:
 
 - ❌ No API keys, tokens, credentials, internal URLs, or customer/PII data.
 - ✅ Only the shared data contract, architecture docs, and screenshots.

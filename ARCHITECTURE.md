@@ -7,7 +7,7 @@ High-level, public-safe view of how Inviteje is built. No internal URLs, credent
 Inviteje is two independent products that happen to share infrastructure:
 
 1. **Wedding Invitations** — the main SaaS. Invitation creation, RSVP, guest wishes, admin dashboard. A Next.js application with server-rendered pages and server-side data access.
-2. **Wedding Photos** — a disposable-camera-style companion app. Guests join an event with a link, capture photos/video, and see a shared live feed. A dedicated Express API service, its own database schema, and a mobile app (React Native / Expo).
+2. **Wedding Photos** — a disposable-camera-style companion app. Guests join an event with a link, capture photos/video, and see a shared live feed. A dedicated Express API service and its own database schema. Guests use a camera that runs in the phone's browser, so there is nothing to install.
 
 They are not one unified data model. A guest joining a Photos album has nothing to do with the Invitations tenancy model, and vice versa — the two domains are kept structurally separate even where they run in the same process today.
 
@@ -25,7 +25,7 @@ Every invitation template is visually distinct — different typography, color l
 - **Database**: managed Postgres (connection-pooled for serverless concurrency), with RLS policies applied as versioned migrations.
 - **Hot media storage**: S3-compatible object storage with direct-from-client presigned uploads — media never passes through the application server.
 - **Cold archive**: event media moves to long-term storage after a guest-download window closes; nothing sensitive stays in hot storage indefinitely.
-- **Mobile**: React Native (Expo), talking to the same backend API as the web app — one API, multiple clients.
+- **Guest camera**: runs in the phone browser and talks to the Photos API directly, so limits apply per guest device, not per shared venue network.
 
 ## What this repo publishes
 
