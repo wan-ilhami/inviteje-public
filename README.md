@@ -8,7 +8,7 @@ Inviteje is a multi-tenant SaaS for couples who want a wedding invitation that l
 
 | | | |
 |---|---|---|
-| ![Agate Foil](./assets/screenshots/agate-foil.png) | ![Billet Doux](./assets/screenshots/billet-doux.png) | ![Jejak Kembara](./assets/screenshots/jejak-kembara.png) |
+| ![Burgundy Velvet](./assets/screenshots/burgundy-velvet.png) | ![Billet Doux](./assets/screenshots/billet-doux.png) | ![Jejak Kembara](./assets/screenshots/jejak-kembara.png) |
 
 Three of dozens of hand-built templates — each with its own physical archetype, ambient lighting, and motion design. No two look like the same product wearing different colors.
 
