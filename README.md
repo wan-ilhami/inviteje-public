@@ -6,17 +6,17 @@ Inviteje is a multi-tenant SaaS for couples who want a wedding invitation that l
 
 ## Screenshots
 
-| | | |
-|---|---|---|
-| ![Burgundy Velvet](./assets/screenshots/burgundy-velvet.png) | ![Billet Doux](./assets/screenshots/billet-doux.png) | ![Jejak Kembara](./assets/screenshots/jejak-kembara.png) |
+| | |
+|---|---|
+| ![Burgundy Velvet](./assets/screenshots/burgundy-velvet.png) | ![Billet Doux](./assets/screenshots/billet-doux.png) |
 
-Three of dozens of hand-built templates — each with its own physical archetype, ambient lighting, and motion design. No two look like the same product wearing different colors.
+Two of 113 hand-built templates — each with its own physical archetype, ambient lighting, and motion design. No two look like the same product wearing different colors.
 
 ## What's inside
 
 - **Invitations** — the core product. Create an invitation, pick a template, share one link. Guests RSVP, leave wishes, add the date to their calendar, and unlock a gated invitation with a passcode if the couple wants privacy.
 - **Wedding Photos** — a companion "disposable camera" experience for the event itself: guests join with a link/QR, capture photos and short videos through the app, and everyone sees a shared live feed. Albums move to cold storage after the event; the couple keeps a full-resolution archive.
-- **Dozens of templates, one contract** — every template is visually unique but guarantees the same guest-facing functionality (RSVP, wishes, calendar, gallery, password gate). Couples pick the look; the platform guarantees the substance.
+- **113 templates, one contract** — every template is visually unique but guarantees the same guest-facing functionality (RSVP, wishes, calendar, gallery, password gate). Couples pick the look; the platform guarantees the substance.
 
 ## Try it
 
